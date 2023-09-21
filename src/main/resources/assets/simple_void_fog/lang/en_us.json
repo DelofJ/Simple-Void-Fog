@@ -1,0 +1,8 @@
+{
+	"simple_void_fog.mod_menu.options.title": "Simple Void Fog Configuration",
+	"simple_void_fog.mod_menu.options.option.enable": "Enable the mod",
+	"simple_void_fog.mod_menu.options.option.overworld": "Only In Overworld",
+	"simple_void_fog.mod_menu.options.option.survival": "Only in Survival",
+	"simple_void_fog.mod_menu.no_cloth_config.title": "Cloth Config not installed",
+	"simple_void_fog.mod_menu.no_cloth_config.description": "You need to have Cloth Config installed to configure these settings"
+}

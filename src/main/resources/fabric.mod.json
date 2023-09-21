@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_void_fog",
+  "version": "${version}",
+
+  "name": "Simple Void Fog",
+  "description": "Re-adds the Minecraft Void Fog from Minecraft 1.7.10 and earlier\nJust like the original",
+  "authors": [
+    "DelofJ"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/simple-void-fog",
+    "sources": "https://github.com/DelofJ/Simple-Void-Fog",
+    "issues": "https://github.com/DelofJ/Simple-Void-Fog/issues"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/simple_void_fog/icon_128_1.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.delofj.simple_void_fog.SimpleVoidFog"
+    ],
+    "modmenu": [
+      "io.github.delofj.simple_void_fog.config.ModMenuConfigScreen"
+    ]
+  },
+
+  "accessWidener" : "simple_void_fog.accesswidener",
+  "mixins": [ "simple_void_fog.mixins.json" ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  },
+
+  "suggests": {
+    "modmenu": "*",
+    "cloth-config": "*"
+  }
+}
